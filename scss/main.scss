@@ -1,0 +1,37 @@
+@import "colores";
+
+body{
+	background: $violeta;
+}
+ol{
+	text-decoration:none;
+	background: $rojo;
+	li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	 a{
+	 color: $negro;
+	 }
+	}
+}
+
+.padding{
+	padding: 40px;
+}
+
+.titulo-principal{
+	color: $rojo;
+	background: $verde;
+}
+
+.txt{
+	font-size: 50px;
+	color: $azul;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 300px
+}

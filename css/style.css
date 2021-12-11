@@ -1,0 +1,28 @@
+body {
+  background: purple; }
+
+ol {
+  text-decoration: none;
+  background: red; }
+  ol li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px; }
+    ol li a {
+      color: black; }
+
+.padding {
+  padding: 40px; }
+
+.titulo-principal {
+  color: red;
+  background: green; }
+
+.txt {
+  font-size: 50px;
+  color: blue; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px; }
